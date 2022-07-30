@@ -6,3 +6,14 @@ services:
     volumes:
       - .:/usr/src/app
     command: rails s -b 0.0.0.0
+    links:
+      - chrome-server
+      - firefox-server
+  chrome-server:
+    image: selenium/standalone-chrome:96.0
+    ports: 
+      - "7900:7900"
+  firefox-server:
+    image: selenium/standalone-firefox:97.0
+    ports:
+      - "7901:7900"

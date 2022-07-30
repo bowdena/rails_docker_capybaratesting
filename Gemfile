@@ -68,5 +68,6 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem "webdrivers"
+  # remove the next one to setup remote capybara
+  # gem "webdrivers"
 end
