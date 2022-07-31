@@ -1,5 +1,4 @@
 # Hello world using Docker and Capybara
-..
 
 Unit tests using Capybara within remote dockers for management.
 
@@ -31,3 +30,4 @@ All of the majick for configuration can be found in the following files:
 - Gemfile (remove gem "webdrivers")
 - test/test_helper.rb
 
+Added the posting to the interwebs on github
